@@ -1,0 +1,33 @@
+/*
+ Color palette
+    NAVY : #2F4156
+    TEAL : #567C8D
+    SKY BLUE : #C8D9E6
+    BEIGE : #F5EFEB
+    WHITE : #FFFFFF
+*/
+
+.custom-hero-gradient-bg {
+    background: linear-gradient(to bottom,
+        #F5EFEB 0%,
+        #F5EFEB 60%,
+        #C8D9E6 75%,
+        #567C8D 93%,
+        #567C8D 100%
+    );
+}
+
+.custom-shadow {
+    box-shadow: 0px 4px 30px rgba(71, 71, 71, 0.5); /* White shadow with some transparency */
+  }
+
+.custom-shadow2 {
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.6); /* White shadow with some transparency */
+  }
+
+/* .custom-services-gradient-bg {
+    background: linear-gradient(to bottom,
+        #567C8D 0%,
+        #2F4156 30%
+    );
+} */
