@@ -1,12 +1,12 @@
 /**
- * Dependencies
+ * Node modules
  */
 import React from 'react';
 
 /**
  * Components
  */
-import Logo from '../../public/Willyspace logo vector.svg';
+import Logo from '/Willyspace logo vector.svg';
 
 import '../custom.css';
 

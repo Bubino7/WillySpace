@@ -17,6 +17,20 @@
     );
 }
 
+.custom-form-gradient-bg {
+    background: linear-gradient(to top,
+        #F5EFEB 0%,
+        #F5EFEB 60%,
+        #C8D9E6 75%,
+        #567C8D 93%,
+        #567C8D 100%
+    );
+}
+
+.hide-scroll-bar::-webkit-scrollbar {
+    display: none;
+}
+
 .custom-shadow {
     box-shadow: 0px 4px 30px rgba(71, 71, 71, 0.5); /* White shadow with some transparency */
   }
