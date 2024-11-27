@@ -7,13 +7,24 @@
     WHITE : #FFFFFF
 */
 
+@font-face {
+    font-family: 'super-water';
+    src: url('./assets/fonts/super-water.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.super-water-font {
+    font-family: 'super-water', sans-serif;
+}
+
 .custom-hero-gradient-bg {
     background: linear-gradient(to bottom,
         #F5EFEB 0%,
         #F5EFEB 60%,
         #C8D9E6 75%,
-        #567C8D 93%,
-        #567C8D 100%
+        #C8D9E6 93%,
+        #C8D9E6 100%
     );
 }
 
@@ -22,8 +33,18 @@
         #F5EFEB 0%,
         #F5EFEB 60%,
         #C8D9E6 75%,
-        #567C8D 93%,
-        #567C8D 100%
+        #C8D9E6 93%,
+        #C8D9E6 100%
+    );
+}
+
+.custom-footer-gradient-bg {
+    background: linear-gradient(to bottom,
+        #F5EFEB 0%,
+        #F5EFEB 12%,
+        #C8D9E6 20%,
+        #C8D9E6 43%,
+        #C8D9E6 100%
     );
 }
 

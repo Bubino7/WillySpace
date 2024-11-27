@@ -14,10 +14,10 @@ const ServiceCard = ({ title, description, image }) => {
     };
   
     return (
-        <div className="w-[300px] h-[300px] rounded-2xl overflow-hidden custom-shadow2 bg-[#F5EFEB] p-3 flex flex-col items-center justify-between">
+        <div className="w-[300px] h-[300px] rounded-2xl overflow-hidden custom-shadow2 bg-[#FFFFFF] p-3 flex flex-col items-center justify-between">
         {/* Logo in a circle with dark background */}
-          <div className="w-16 h-16 bg-gray-800 rounded-full flex items-center justify-center mb-4 custom-shadow2">
-            <img src={image} alt={title} className="w-8 h-8" />
+          <div className="w-16 h-16 bg-[#2F4156] rounded-full flex items-center justify-center mb-4 custom-shadow2 overflow-hidden">
+            <img src={image} alt={title} className="w-18 h-18" />
           </div>
     
           {/* Divider */}
@@ -33,7 +33,7 @@ const ServiceCard = ({ title, description, image }) => {
     
           {/* Button */}
           <button
-            className="bg-blue-gray-600 text-white px-4 py-2 rounded hover:bg-blue-gray-900 focus:outline-none mt-auto"
+            className="bg-[#C8D9E6] text-[#2F4156] px-4 py-2 rounded hover:bg-[#567C8D] focus:outline-none mt-auto transition-colors"
             onClick={() => console.log(`More info about ${title}`)}
           >
             More Info
